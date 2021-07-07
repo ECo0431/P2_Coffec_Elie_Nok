@@ -1,0 +1,415 @@
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url('fonts/static/Raleway-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway-SemiBold';
+    src: url('fonts/static/Raleway-SemiBold.ttf');
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('fonts/static/Raleway-Bold.ttf');
+    font-weight: bold;
+    font-style: bold;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+header, main{
+    width: 93%;
+}
+
+.boxHeader0{
+    display: flex;
+    padding-right: 115px;
+    height: 52px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.boxHeader1{
+    display: flex;
+    padding-right: 115px;
+    height: 52px;
+    flex-wrap: wrap;
+}
+
+.boxHeader2{
+    height: 61px;
+}
+
+.zoneMenu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.margeHeader1{
+    margin-bottom: 13px;
+}
+
+.margeHeader2{
+    margin-bottom: 12px;
+}
+
+.margeHeader3{
+    margin-bottom: 20px;
+}
+
+.margeHeader4{
+    margin-bottom: 33px;
+}
+
+.margeHeader5{
+    margin-bottom: 9px;
+}
+
+.article1{
+    background-color: turquoise;
+    height: 626px;
+}
+
+.article2{
+    background-color: blue;
+    height: 614px;
+}
+
+footer{
+    background-color: gray;
+    height: 218px;
+    width: 100%;
+}
+
+#logo{
+    width: 94px;
+    height: 29px;
+}
+
+.noir{
+    color: black;
+}
+
+.bleu{
+    color: #0065FC;
+}
+
+.bcBleu{
+    background-color: #0065FC;
+}
+
+.bcGris{
+    background-color: #F2F2F2;
+}
+
+.regular{
+    font-family: 'Raleway-Regular';  
+}
+
+.semiBold{
+    font-family: 'Raleway-SemiBold'; 
+}
+
+.bold{
+    font-family: 'Raleway-Bold';  
+}
+
+nav{
+    margin-top: -4px;
+    margin-right: 31px;
+}
+
+a{
+    font-size: 1em;
+    margin-left: 64px;
+}
+
+h1{
+    font-family: 'Raleway-Bold'; 
+    font-size: 1.368em;
+}
+
+p{
+    font-family: 'Raleway-Regular'; 
+    font-size: 0.98em; 
+    margin-top: 8px;
+    letter-spacing: 0.15px;
+}
+
+.boxPageActive{
+    height: 2px;
+    width: 162px;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxBarreDeRecherche{
+    width: 419px;
+    height: 51px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 15px;
+    border: 1px solid #F2F2F2;
+}
+
+input{
+    width: 234px;
+    font-size: 1.1em;
+    padding-left: 10px;
+}
+
+button{
+    color: white;
+    width: 134px;
+    height: 100%;
+    border-radius: 0px 15px 15px 0px;
+    font-size: 1.1em;
+    cursor: pointer;
+    letter-spacing: 0.3px;
+}
+
+.plan{
+    opacity: 0.5;
+    position: absolute;
+    right: 4px;
+}
+
+.filtres{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 8px;
+    font-size: 1.1em;
+    color: black;
+}
+
+.filtres p{
+    margin-top: 15px;
+    margin-right: 32px;
+}
+
+#boxEco, #boxFam, #boxRom, #boxAni{
+    background-color:#F2F2F2;
+    border-top: 2px solid #d9d9d9;
+    border-bottom: 2px solid #d9d9d9;
+    border-right: 2px solid #d9d9d9;
+    margin-right: 24px;
+    color: black;
+    padding-bottom: 2px;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    border-radius: 40px;
+}
+
+#boxEco:hover, #boxFam:hover, #boxRom:hover, #boxAni:hover{
+    border: 2px solid #DEEBFF;
+    background-color: #DEEBFF;
+    cursor: pointer;
+}
+
+#boxEco{
+    width: 194px;
+}
+
+#boxFam{
+    width: 149px;
+    background-color:#F2F2F2;
+}
+
+#boxRom{
+    width: 182px;
+    background-color:#F2F2F2;
+}
+
+#boxAni{
+    width: 240px;
+    background-color: #F2F2F2;
+}
+
+.rond{
+    background-color: #DEEBFF;
+    height: 51px;
+    width: 51px;
+    border-radius: 46px;
+    margin-top: 2px;
+}
+
+.txtBouton{
+    margin-left: 12px;
+    margin-top: 2px;
+}
+
+#pictoCarte{
+    height: 19px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+#pictoPerso{
+    height: 20px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+#pictoCoeur{
+    height: 18px;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+
+#pictoBillet{
+    width: 19px;
+    margin-top: 17px;
+    height: 17px;
+    margin-left: 16px;
+}
+
+#pictoChien{
+    height: 19px;
+    margin-top: 16px;
+    margin-left: 14px;
+}
+
+#pictoInfo{
+    height: 24px;
+    width: 25px;
+    margin-left: 5px;
+    margin-right: 9px;
+}
+
+#txtInfo{
+    margin-top: 3px;
+}
+
+h2{
+    font-family: 'Raleway-Bold'; 
+    font-size: 1.368em;
+    margin-left: 2px;
+    letter-spacing: -0.01px;
+}
+
+.article1{
+    width: 800px;
+    height: 544px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 42px 40px 40px 41px;
+    margin-left: -5px;
+}
+
+.section1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 23px;
+    height: 428px;
+    width: 800px;
+    justify-content: space-between;
+}
+
+.hebergementLocaux{
+    width: 246px;
+    height: 199px;
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.zoneHebergement{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5px;
+    flex-wrap: wrap;
+}
+
+.article2{
+    width: 418px;
+    height: 199px;
+    background-color: green;
+    height: 626px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section2{
+    background-color: #F2F2F2;
+    width: 343px;
+    height: 499px;
+    margin-left: 36px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#titreA2{
+    margin-left: 36px;
+    margin-top: 16px;
+    margin-bottom: 27px;
+}
+
+.hebergementPopulaire{
+    height: 145px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.imageHebergement{
+    height: 114px;
+    width: 100%;
+    max-width: 236px;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 4px;
+}
+
+h3{
+    font-size: 1em;
+}
+
+.zoneTxtHebergement p{
+    font-size: 0.86em;
+    line-height: 10px;
+}
+
+.zoneTxtHebergement{
+    margin-top: 10px;
+    width: 226px;
+    padding-left: 10px;
+    background-color: white;
+}
+
+.etoileBleu, .etoileGrise{
+    width: 12px;
+    margin-top: 11px;
+    margin-left: -1px;
+}
+
+#boutonAfficher{
+    height: 0;
+    color: black;
+    margin-top: 40px;
+    margin-left: -11px;
+    letter-spacing: -0.2px;
+}
