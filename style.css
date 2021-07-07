@@ -370,12 +370,6 @@ h2{
     margin-bottom: 27px;
 }
 
-.hebergementPopulaire{
-    height: 145px;
-    background-color: black;
-    border-radius: 20px;
-}
-
 .imageHebergement{
     height: 114px;
     max-width: 236px;
@@ -411,4 +405,29 @@ h3{
     margin-top: 40px;
     margin-left: -11px;
     letter-spacing: -0.2px;
+}
+
+.imagePopulaire{
+    width: 127px;
+    height: 134px;
+    border-radius: 17px 0px 0px 17px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.hebergementPopulaire{
+    height: 145px;
+    background-color: rgb(167, 30, 30);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#titrePopulaire{
+    margin-bottom: 50px;
+}
+
+#textePopulaire{
+    margin-bottom: 50px;
+    font-size: 0.85em;
 }
