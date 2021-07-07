@@ -138,7 +138,7 @@ nav{
     margin-right: 31px;
 }
 
-a{
+nav ul li a{
     font-size: 1em;
     margin-left: 64px;
 }
@@ -146,6 +146,10 @@ a{
 h1{
     font-family: 'Raleway-Bold'; 
     font-size: 1.368em;
+}
+
+a{
+    color: black;
 }
 
 p{
