@@ -447,3 +447,98 @@ h3{
 .zoneTitre{
     display: flex;
 }
+
+.zoneActivite{
+    height: 550px;
+    width: 100%;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.boxTitre{
+    padding-bottom: 22px;
+    margin-left: -4px;
+}
+
+.boxPhoto{
+    height: 446px;
+    width: 100%;
+    margin-left: -4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxPhoto1, .boxPhoto2, .boxPhoto3, .boxPhoto4{
+    width: 302px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.boxPhoto2a, .boxPhoto2b, .boxPhoto4a, .boxPhoto4b{
+    border-radius: 20px;
+}
+
+.boxPhoto2a{
+    height: 236px;
+}
+
+.boxPhoto2b{
+    height: 166px;
+}
+
+.boxPhoto4a{
+    height: 194px;
+}
+
+.boxPhoto4b{
+    height: 209px;
+}
+
+.image1, .image2, .image2b, .image3, .image4{
+    border-radius: 20px 20px 0px 0px;
+    width: 302px;
+}
+
+.image1{
+    height: 389px;
+}
+
+.sousTitreAct1{
+    margin-left: 18px;
+    margin-bottom: 17px;
+}
+
+.image2{
+    height: 181px;
+}
+
+.sousTitreAct2{
+    margin-left: 18px;
+    margin-top: 16px;
+}
+
+.image2b{
+    height: 110px;
+}
+
+.sousTitreAct2b{
+    margin-left: 20px;
+    margin-top: 15px;   
+}
+
+.image3{
+    height: 139px;
+}
+
+.image4{
+    height: 153px;
+}
+
+.ombre{
+    box-shadow: 0px 5px 20px  #c7c8ca;
+}
