@@ -378,10 +378,9 @@ h2{
 
 .imageHebergement{
     height: 114px;
-    width: 100%;
     max-width: 236px;
-    border-radius: 20px 20px 0px 0px;
-    margin-top: 4px;
+    border-radius: 17px 17px 0px 0px;
+    margin-top: 5px;
 }
 
 h3{
