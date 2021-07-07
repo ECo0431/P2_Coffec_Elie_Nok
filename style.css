@@ -345,7 +345,7 @@ h2{
 .article2{
     width: 418px;
     height: 199px;
-    background-color: green;
+    background-color: #F2F2F2;
     height: 626px;
     border-radius: 20px;
     display: flex;
@@ -417,17 +417,33 @@ h3{
 
 .hebergementPopulaire{
     height: 145px;
-    background-color: rgb(167, 30, 30);
+    background-color: white;
     border-radius: 20px;
     display: flex;
     align-items: center;
 }
 
 #titrePopulaire{
-    margin-bottom: 50px;
+    margin-top: -34px;
+    font-size: 1em;
 }
 
 #textePopulaire{
-    margin-bottom: 50px;
     font-size: 0.85em;
+}
+
+.etoileBleuPopu{
+    width: 11px;
+    margin-bottom: -38px;
+}
+
+.pictogrammeGraph{
+    width: 24px;
+    height: 18px;
+    margin-left: 118px;
+    margin-top: 20px;
+}
+
+.zoneTitre{
+    display: flex;
 }
